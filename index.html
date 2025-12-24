@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パスワード生成アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-line">
+
+    <!-- タイトル -->
+    <div>
+        <h1 class="inputpass">パスワード生成アプリ</h1>
+    </div>
+    </section>
+
+    <!-- 外部リンク -->
+    <div id="links">
+        <a href="#" onclick="showExplain()">アプリの使用方法</a>
+    </div>
+
+    <!-- 説明文 -->
+    <section id="explain" style="display: none;">
+        <h1>アプリの使用方法</h1>
+        <p>【パスワードのコピー方法】<br>
+        1. 「生成」ボタンをクリックする。<br>
+        2. ランダムなパスワードが生成される。<br>
+        3. 「コピー」ボタンをクリックしてコピー<br>
+        </p>
+        <p>【メール本文の作成方法】<br>
+        1. メール送信者の苗字を入力する。<br>
+        2. 希望の対応期限を選択する。<br>
+        3. 「生成」ボタンをクリックする。<br>
+        4. 生成されたメール本文に、送信者の名前と対応期日が記載されているか確認する。<br>
+        5. 「コピー」ボタンをクリックしてメールをコピー。<br>
+        </p>
+    </section>
+
+    <!-- PWの生成とコピーボタン -->
+    <div id="button-line">
+        <button class="create">生成</button>
+        <button class="copy">コピー</button>
+    </div>
+
+    <!-- PW表示欄 -->
+    <div>
+        <label><input readonly class="result"></label>
+    </div>
+
+    <!-- 今後の対応の文言 -->
+    <section>
+            <p class="action-line">【今後の対応】</p>
+            <p class="bullet-points1">1.【資料・データバックアップ\Fortigate関連\202408福岡東京\【福岡】FortiClient設定情報20251024.xlsx】を開く</p>
+            <p class="bullet-points2">2.パスワード入力欄に生成したパスワードを入力</p>
+            <p class="bullet-points3">3.【mas_operation@startia.co.jp】にExcelファイルと以下の文言を送信</p>
+    </section>
+
+  <p class="line-line">--------------------------本文------------------------</p>
+
+    <!-- 送信し屋入力欄と生成ボタン -->
+     <div class="Name-line">
+        <label class="name">送信者：<input class="submitName" type="text" placeholder="苗字を入力してください"></label>
+        <label>回答期限 : <input type="date" class="date-line"></label>
+        <button class="Namecreate">生成</button>
+    </div>
+
+    <!-- メール本文テキストボックス -->
+    <div>
+        <label>
+            <textarea readonly class="Email-line" placeholder="メールの本文が表示されます"></textarea>
+        </label>
+    </div>
+
+    <button class="mail-button">コピー</button>
+
+    <!-- フッター -->
+    <footer>Created by Riki Ikeda</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

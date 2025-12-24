@@ -1,0 +1,121 @@
+body {
+    font-size: 16px;
+    background-color: azure;
+}
+
+/* ボタン部分までを中心に寄せる */
+.main-line {
+    text-align: center;
+}
+
+
+/* タイトル部分 */
+.inputpass {
+    margin: auto;
+    margin-top: 20px;
+    color: #78716c;
+}
+
+/* 外部リンクの設定 */
+#links,
+#explain {
+    text-align: center;
+}
+
+
+/* ボタン部分 */
+#button-line {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* 結果表示枠を中心に寄せる */
+.result {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+}
+
+/* ボタンの位置とボタンのは大きさを調整 */
+.create {
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.copy {
+    width: 64px;
+    height: 30px;
+}
+
+
+/* 【今後の対応】を中央寄せ */
+.action-line {
+    text-align: center;
+}
+
+/* 箇条書き欄の調整 */
+.bullet-points1 {
+    text-align: center;
+}
+
+.bullet-points2 {
+    text-align: center;
+}
+
+.bullet-points3 {
+    text-align: center;
+}
+
+/* -----本文----- */
+.line-line {
+    text-align: center;
+}
+
+/* 送信者入力欄とコピーボタン */
+.Name-line {
+    text-align: center;
+}
+
+/* 送信者入力欄の設定 */
+.submitName {
+    height: 30px;
+}
+
+/* カレンダーボタンの設定 */
+.date-line {
+    height: 30px;
+}
+
+/* 曜日選択欄の設定 */
+select {
+    height: 35px;
+    width: 80px;
+}
+
+.Namecreate {
+    height: 30px;
+}
+
+/* メール本文テクストボックス */
+.Email-line {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 600px;
+    height: 130px;
+}
+
+.mail-button {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* フッターの調整 */
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
